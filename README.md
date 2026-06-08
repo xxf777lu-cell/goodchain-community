@@ -6,9 +6,8 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat)](./LICENSE)
 [![Status](https://img.shields.io/badge/Status-Live-success?style=flat)](https://goodchainscan.org)
 [![Website](https://img.shields.io/badge/Website-GitHub%20Pages-6366f1?style=flat)](https://xxf777lu-cell.github.io/goodchain-community/)
-[![Cloudflare](https://img.shields.io/badge/Website-Cloudflare%20Pages-f6821f?style=flat)](https://cgc-proto.pages.dev)
 
-[**🌐 GitHub Pages →**](https://xxf777lu-cell.github.io/goodchain-community/)　　　[**☁️ Cloudflare Pages →**](https://cgc-proto.pages.dev)
+[**🌐 GitHub Pages →**](https://xxf777lu-cell.github.io/goodchain-community/)
 
 ## 🚀 社区前端入口
 
@@ -17,7 +16,6 @@
 | 平台 | 入口 | 状态 |
 |------|------|:----:|
 | **GitHub Pages** | [xxf777lu-cell.github.io/goodchain-community](https://xxf777lu-cell.github.io/goodchain-community/) | 🟢 在线 |
-| **Cloudflare Pages** | [cgc-proto.pages.dev](https://cgc-proto.pages.dev/) | 🟢 在线 |
 
 ### 📑 功能页面
 
