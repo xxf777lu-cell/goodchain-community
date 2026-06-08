@@ -1,6 +1,6 @@
 {
-  "name": "CGC Badge #8 — GDC Lord",
-  "description": "Hold at least 2,000 GDC.",
+  "name": "CGC Badge #8 — PRAETOR",
+  "description": "Gold-tier community leader badge",
   "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/8.svg",
   "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
   "attributes": [
@@ -9,8 +9,8 @@
       "value": "Gold"
     },
     {
-      "trait_type": "Category",
-      "value": "Holding"
+      "trait_type": "Badge Type",
+      "value": "PRAETOR"
     }
   ]
 }

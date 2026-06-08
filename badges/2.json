@@ -1,6 +1,6 @@
 {
-  "name": "CGC Badge #2 — Unstoppable",
-  "description": "Achieve a 30-day check-in streak.",
+  "name": "CGC Badge #2 — INDEFESSUS",
+  "description": "Gold-tier endurance badge",
   "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/2.svg",
   "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
   "attributes": [
@@ -9,8 +9,8 @@
       "value": "Gold"
     },
     {
-      "trait_type": "Category",
-      "value": "Check-in"
+      "trait_type": "Badge Type",
+      "value": "INDEFESSUS"
     }
   ]
 }

@@ -1,45 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
-  <defs>
-    <linearGradient id="bg18" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#5C3A00"/>
-      <stop offset="25%" style="stop-color:#B8860B"/>
-      <stop offset="50%" style="stop-color:#FFD700"/>
-      <stop offset="75%" style="stop-color:#B8860B"/>
-      <stop offset="100%" style="stop-color:#5C3A00"/>
-    </linearGradient>
-    <linearGradient id="ring18" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#5C3A00;stop-opacity:0.8"/>
-      <stop offset="30%" style="stop-color:#FFD700;stop-opacity:1"/>
-      <stop offset="60%" style="stop-color:#FFC125;stop-opacity:0.9"/>
-      <stop offset="100%" style="stop-color:#5C3A00;stop-opacity:0.8"/>
-    </linearGradient>
-    <radialGradient id="shine18" cx="30%" cy="30%" r="60%">
-      <stop offset="0%" style="stop-color:#fff;stop-opacity:0.32"/>
-      <stop offset="50%" style="stop-color:#fff;stop-opacity:0.05"/>
-      <stop offset="100%" style="stop-color:#000;stop-opacity:0.27"/>
-    </radialGradient>
-    <radialGradient id="core18" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#FFF8DC;stop-opacity:0.12"/>
-      <stop offset="100%" style="stop-color:#FFF8DC;stop-opacity:0"/>
-    </radialGradient>
-    <filter id="shadow18" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#000" flood-opacity="0.45"/>
-    </filter>
-    
-  </defs>
+<defs>
+<linearGradient id="b18" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#5C3A00"/><stop offset="25%" stop-color="#B8860B"/><stop offset="50%" stop-color="#FFD700"/><stop offset="75%" stop-color="#B8860B"/><stop offset="100%" stop-color="#5C3A00"/></linearGradient>
+<linearGradient id="r18" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#5C3A00" stop-opacity="0.8"/><stop offset="30%" stop-color="#FFD700" stop-opacity="1"/><stop offset="60%" stop-color="#FFC125" stop-opacity="0.9"/><stop offset="100%" stop-color="#5C3A00" stop-opacity="0.8"/></linearGradient>
+<radialGradient id="s18" cx="30%" cy="30%" r="60%"><stop offset="0%" stop-color="#fff" stop-opacity="0.32"/><stop offset="50%" stop-color="#fff" stop-opacity="0.05"/><stop offset="100%" stop-color="#000" stop-opacity="0.27"/></radialGradient>
+<radialGradient id="c18" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFF8DC" stop-opacity="0.12"/><stop offset="100%" stop-color="#FFF8DC" stop-opacity="0"/></radialGradient>
+<filter id="sh18" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#000" flood-opacity="0.45"/></filter>
 
-  <!-- Outer aura -->
-  <circle cx="100" cy="100" r="96" fill="none" stroke="#FFF8DC" stroke-width="1.7999999999999998" opacity="0.25" filter="url(#shadow18)"/>
-
-  <!-- Outer ring -->
-  <circle cx="100" cy="100" r="92" fill="url(#ring18)" stroke="#B8860B" stroke-width="1.5" filter="url(#shadow18)"/>
-  <circle cx="100" cy="100" r="87" fill="none" stroke="#FFD700" stroke-width="0.5" opacity="0.4"/>
-
-  <!-- Main badge circle -->
-  <circle cx="100" cy="100" r="82" fill="url(#bg18)" stroke="#FFD700" stroke-width="1.2"/>
-
-  <!-- Rays + glow + shine -->
-  <line x1="124.6" y1="100" x2="182" y2="100" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
+</defs>
+<circle cx="100" cy="100" r="96" fill="none" stroke="#FFF8DC" stroke-width="1.7999999999999998" opacity="0.25" filter="url(#sh18)"/>
+<circle cx="100" cy="100" r="92" fill="url(#r18)" stroke="#B8860B" stroke-width="1.5" filter="url(#sh18)"/>
+<circle cx="100" cy="100" r="87" fill="none" stroke="#FFD700" stroke-width="0.5" opacity="0.4"/>
+<circle cx="100" cy="100" r="82" fill="url(#b18)" stroke="#FFD700" stroke-width="1.2"/>
+<line x1="124.6" y1="100" x2="182" y2="100" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
     <line x1="123.76177532671107" y1="106.366948509522" x2="179.20591775570358" y2="121.2231616984067" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
     <line x1="121.30422493309719" y1="112.3" x2="171.01408311032398" y2="141" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
     <line x1="117.39482681718907" y1="117.39482681718907" x2="157.9827560572969" y2="157.98275605729688" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
@@ -64,11 +36,9 @@
     <line x1="121.30422493309717" y1="87.69999999999999" x2="171.01408311032395" y2="58.999999999999964" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
     <line x1="123.76177532671107" y1="93.63305149047797" x2="179.20591775570358" y2="78.77683830159323" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
     
-  <circle cx="100" cy="100" r="50" fill="url(#core18)"/>
-  <circle cx="100" cy="100" r="82" fill="url(#shine18)"/>
-
-  <!-- Rim dots -->
-  <circle cx="100" cy="12" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
+<circle cx="100" cy="100" r="50" fill="url(#c18)"/>
+<circle cx="100" cy="100" r="82" fill="url(#s18)"/>
+<circle cx="100" cy="12" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
     <circle cx="119.58184218815568" cy="14.206343727999524" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
     <circle cx="138.1817690423451" cy="20.71473962458711" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
     <circle cx="154.86710256356855" cy="31.19882954281337" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
@@ -97,35 +67,14 @@
     <circle cx="61.81823095765487" cy="20.714739624587125" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
     <circle cx="80.41815781184431" cy="14.206343727999524" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
     
-
-  <!-- Tier stars -->
-  <polygon points="89,18 92.80422606518061,20.76393202250021 91.3511410091699,25.23606797749979 86.6488589908301,25.23606797749979 85.19577393481939,20.76393202250021" fill="#FFD700" stroke="#B8860B" stroke-width="0.3" opacity="0.9"/>
+<polygon points="89,18 92.80422606518061,20.76393202250021 91.3511410091699,25.23606797749979 86.6488589908301,25.23606797749979 85.19577393481939,20.76393202250021" fill="#FFD700" stroke="#B8860B" stroke-width="0.3" opacity="0.9"/>
     <polygon points="100,18 103.80422606518061,20.76393202250021 102.3511410091699,25.23606797749979 97.6488589908301,25.23606797749979 96.19577393481939,20.76393202250021" fill="#FFD700" stroke="#B8860B" stroke-width="0.3" opacity="0.9"/>
     <polygon points="111,18 114.80422606518061,20.76393202250021 113.3511410091699,25.23606797749979 108.6488589908301,25.23606797749979 107.19577393481939,20.76393202250021" fill="#FFD700" stroke="#B8860B" stroke-width="0.3" opacity="0.9"/>
     
-
-  <!-- Icon ring -->
-  <circle cx="100" cy="94" r="42" fill="none" stroke="#FFC125" stroke-width="1" opacity="0.4"/>
-
-  <!-- Vector icon -->
-  <g >
-    <g transform="translate(0,-6)">
-    <polygon points="7.0200000000000005,0 23.400000000000002,0 4.963889603929564,4.963889603929563 16.546298679765215,16.54629867976521 4.29851026500721e-16,7.0200000000000005 1.4328367550024033e-15,23.400000000000002 -4.963889603929563,4.963889603929564 -16.54629867976521,16.546298679765215 -7.0200000000000005,8.59702053001442e-16 -23.400000000000002,2.8656735100048066e-15 -4.963889603929565,-4.963889603929563 -16.54629867976522,-16.54629867976521 -1.289553079502163e-15,-7.0200000000000005 -4.29851026500721e-15,-23.400000000000002 4.963889603929562,-4.963889603929565 16.546298679765208,-16.54629867976522" fill="none" stroke="#FFC125" stroke-width="1.56" stroke-linejoin="round"/>
-    <circle cx="0" cy="0" r="5.8500000000000005" fill="none" stroke="#FFC125" stroke-width="1.8200000000000003"/>
-    <line x1="-28.080000000000002" y1="0" x2="28.080000000000002" y2="0" stroke="#FFC125" stroke-width="0.52" opacity="0.3"/>
-    <line x1="0" y1="-28.080000000000002" x2="0" y2="28.080000000000002" stroke="#FFC125" stroke-width="0.52" opacity="0.3"/>
-  </g>
-  </g>
-
-  <!-- Divider -->
-  <line x1="60" y1="132" x2="140" y2="132" stroke="#FFC125" stroke-width="0.5" opacity="0.5"/>
-
-  <!-- Badge name -->
-  <text x="100" y="150" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff" font-family="Arial,sans-serif" filter="drop-shadow(0 1px 1px rgba(0,0,0,0.6))">Quest Hunter</text>
-
-  <!-- Description -->
-  <text x="100" y="162" text-anchor="middle" font-size="8" fill="#FFC125" opacity="0.7" font-family="Arial,sans-serif" letter-spacing="1">Completed 50+ quests</text>
-
-  <!-- Bottom arc -->
-  <path d="M65 172 Q100 180 135 172" fill="none" stroke="#FFC125" stroke-width="0.5" opacity="0.3"/>
+<circle cx="100" cy="94" r="42" fill="none" stroke="#FFC125" stroke-width="1" opacity="0.4"/>
+<g ><g transform="translate(100,94)"><polygon points="7.56,0 25.2,0 5.345727265770299,5.345727265770298 17.819090885900998,17.819090885900994 4.629164900776995e-16,7.56 1.543054966925665e-15,25.2 -5.345727265770298,5.345727265770299 -17.819090885900994,17.819090885900998 -7.56,9.25832980155399e-16 -25.2,3.08610993385133e-15 -5.3457272657703,-5.345727265770298 -17.819090885901,-17.819090885900994 -1.3887494702330984e-15,-7.56 -4.6291649007769944e-15,-25.2 5.345727265770297,-5.3457272657703 17.819090885900994,-17.819090885901" fill="none" stroke="#FFC125" stroke-width="1.68" stroke-linejoin="round"/><circle cx="0" cy="0" r="6.3" fill="none" stroke="#FFC125" stroke-width="1.9600000000000002"/><line x1="-30.24" y1="0" x2="30.24" y2="0" stroke="#FFC125" stroke-width="0.56" opacity="0.3"/><line x1="0" y1="-30.24" x2="0" y2="30.24" stroke="#FFC125" stroke-width="0.56" opacity="0.3"/></g></g>
+<line x1="60" y1="132" x2="140" y2="132" stroke="#FFC125" stroke-width="0.5" opacity="0.5"/>
+<text x="100" y="150" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Arial,sans-serif" filter="drop-shadow(0 1px 1px rgba(0,0,0,0.6))">VENATOR</text>
+<text x="100" y="162" text-anchor="middle" font-size="8" fill="#FFC125" opacity="0.7" font-family="Arial,sans-serif" letter-spacing="1">GOLD TIER · Gold-tier quest hunter badge</text>
+<path d="M65 172 Q100 180 135 172" fill="none" stroke="#FFC125" stroke-width="0.5" opacity="0.3"/>
 </svg>

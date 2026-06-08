@@ -1,16 +1,16 @@
 {
-  "name": "CGC Badge #12 — Active Pioneer",
-  "description": "Accumulate 2,000 activity points.",
+  "name": "CGC Badge #12 — MAGISTER",
+  "description": "Gold-tier mastery badge",
   "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/12.svg",
   "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
   "attributes": [
     {
       "trait_type": "Tier",
-      "value": "Silver"
+      "value": "Gold"
     },
     {
-      "trait_type": "Category",
-      "value": "Activity"
+      "trait_type": "Badge Type",
+      "value": "MAGISTER"
     }
   ]
 }

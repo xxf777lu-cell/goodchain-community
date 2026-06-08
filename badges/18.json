@@ -1,6 +1,6 @@
 {
-  "name": "CGC Badge #18 — Quest Hunter",
-  "description": "Complete 50 quests.",
+  "name": "CGC Badge #18 — VENATOR",
+  "description": "Gold-tier quest hunter badge",
   "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/18.svg",
   "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
   "attributes": [
@@ -9,8 +9,8 @@
       "value": "Gold"
     },
     {
-      "trait_type": "Category",
-      "value": "Special"
+      "trait_type": "Badge Type",
+      "value": "VENATOR"
     }
   ]
 }

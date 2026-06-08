@@ -1,6 +1,6 @@
 {
-  "name": "CGC Badge #4 — Legend Guardian",
-  "description": "Achieve a 180-day check-in streak.",
+  "name": "CGC Badge #4 — CUSTOS",
+  "description": "Diamond-tier guardian badge",
   "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/4.svg",
   "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
   "attributes": [
@@ -9,8 +9,8 @@
       "value": "Diamond"
     },
     {
-      "trait_type": "Category",
-      "value": "Check-in"
+      "trait_type": "Badge Type",
+      "value": "CUSTOS"
     }
   ]
 }

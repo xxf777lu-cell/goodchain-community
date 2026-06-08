@@ -1,45 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
-  <defs>
-    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0C3B5E"/>
-      <stop offset="25%" style="stop-color:#1A6EA0"/>
-      <stop offset="50%" style="stop-color:#7CD3F7"/>
-      <stop offset="75%" style="stop-color:#1A6EA0"/>
-      <stop offset="100%" style="stop-color:#0C3B5E"/>
-    </linearGradient>
-    <linearGradient id="ring4" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0C3B5E;stop-opacity:0.8"/>
-      <stop offset="30%" style="stop-color:#7CD3F7;stop-opacity:1"/>
-      <stop offset="60%" style="stop-color:#B9F2FF;stop-opacity:0.9"/>
-      <stop offset="100%" style="stop-color:#0C3B5E;stop-opacity:0.8"/>
-    </linearGradient>
-    <radialGradient id="shine4" cx="30%" cy="30%" r="60%">
-      <stop offset="0%" style="stop-color:#fff;stop-opacity:0.36"/>
-      <stop offset="50%" style="stop-color:#fff;stop-opacity:0.05"/>
-      <stop offset="100%" style="stop-color:#000;stop-opacity:0.31"/>
-    </radialGradient>
-    <radialGradient id="core4" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#E8F8FF;stop-opacity:0.25"/>
-      <stop offset="100%" style="stop-color:#E8F8FF;stop-opacity:0"/>
-    </radialGradient>
-    <filter id="shadow4" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#000" flood-opacity="0.5"/>
-    </filter>
-    <filter id="ig4"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  </defs>
-
-  <!-- Outer aura -->
-  <circle cx="100" cy="100" r="96" fill="none" stroke="#E8F8FF" stroke-width="2.4" opacity="0.30000000000000004" filter="url(#shadow4)"/>
-
-  <!-- Outer ring -->
-  <circle cx="100" cy="100" r="92" fill="url(#ring4)" stroke="#1A6EA0" stroke-width="1.5" filter="url(#shadow4)"/>
-  <circle cx="100" cy="100" r="87" fill="none" stroke="#7CD3F7" stroke-width="0.5" opacity="0.4"/>
-
-  <!-- Main badge circle -->
-  <circle cx="100" cy="100" r="82" fill="url(#bg4)" stroke="#7CD3F7" stroke-width="1.2"/>
-
-  <!-- Rays + glow + shine -->
-  <line x1="124.6" y1="100" x2="182" y2="100" stroke="#7CD3F7" stroke-width="1.2" opacity="0.26" stroke-linecap="round"/>
+<defs>
+<linearGradient id="b4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0C3B5E"/><stop offset="25%" stop-color="#1A6EA0"/><stop offset="50%" stop-color="#7CD3F7"/><stop offset="75%" stop-color="#1A6EA0"/><stop offset="100%" stop-color="#0C3B5E"/></linearGradient>
+<linearGradient id="r4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0C3B5E" stop-opacity="0.8"/><stop offset="30%" stop-color="#7CD3F7" stop-opacity="1"/><stop offset="60%" stop-color="#B9F2FF" stop-opacity="0.9"/><stop offset="100%" stop-color="#0C3B5E" stop-opacity="0.8"/></linearGradient>
+<radialGradient id="s4" cx="30%" cy="30%" r="60%"><stop offset="0%" stop-color="#fff" stop-opacity="0.36"/><stop offset="50%" stop-color="#fff" stop-opacity="0.05"/><stop offset="100%" stop-color="#000" stop-opacity="0.31"/></radialGradient>
+<radialGradient id="c4" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#E8F8FF" stop-opacity="0.25"/><stop offset="100%" stop-color="#E8F8FF" stop-opacity="0"/></radialGradient>
+<filter id="sh4" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#000" flood-opacity="0.5"/></filter>
+<filter id="ig4"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<circle cx="100" cy="100" r="96" fill="none" stroke="#E8F8FF" stroke-width="2.4" opacity="0.30000000000000004" filter="url(#sh4)"/>
+<circle cx="100" cy="100" r="92" fill="url(#r4)" stroke="#1A6EA0" stroke-width="1.5" filter="url(#sh4)"/>
+<circle cx="100" cy="100" r="87" fill="none" stroke="#7CD3F7" stroke-width="0.5" opacity="0.4"/>
+<circle cx="100" cy="100" r="82" fill="url(#b4)" stroke="#7CD3F7" stroke-width="1.2"/>
+<line x1="124.6" y1="100" x2="182" y2="100" stroke="#7CD3F7" stroke-width="1.2" opacity="0.26" stroke-linecap="round"/>
     <line x1="123.76177532671107" y1="106.366948509522" x2="179.20591775570358" y2="121.2231616984067" stroke="#7CD3F7" stroke-width="1.2" opacity="0.26" stroke-linecap="round"/>
     <line x1="121.30422493309719" y1="112.3" x2="171.01408311032398" y2="141" stroke="#7CD3F7" stroke-width="1.2" opacity="0.26" stroke-linecap="round"/>
     <line x1="117.39482681718907" y1="117.39482681718907" x2="157.9827560572969" y2="157.98275605729688" stroke="#7CD3F7" stroke-width="1.2" opacity="0.26" stroke-linecap="round"/>
@@ -64,11 +36,9 @@
     <line x1="121.30422493309717" y1="87.69999999999999" x2="171.01408311032395" y2="58.999999999999964" stroke="#7CD3F7" stroke-width="1.2" opacity="0.26" stroke-linecap="round"/>
     <line x1="123.76177532671107" y1="93.63305149047797" x2="179.20591775570358" y2="78.77683830159323" stroke="#7CD3F7" stroke-width="1.2" opacity="0.26" stroke-linecap="round"/>
     
-  <circle cx="100" cy="100" r="50" fill="url(#core4)"/>
-  <circle cx="100" cy="100" r="82" fill="url(#shine4)"/>
-
-  <!-- Rim dots -->
-  <circle cx="100" cy="12" r="2.4" fill="#B9F2FF" stroke="#1A6EA0" stroke-width="0.5" opacity="0.85"/>
+<circle cx="100" cy="100" r="50" fill="url(#c4)"/>
+<circle cx="100" cy="100" r="82" fill="url(#s4)"/>
+<circle cx="100" cy="12" r="2.4" fill="#B9F2FF" stroke="#1A6EA0" stroke-width="0.5" opacity="0.85"/>
     <circle cx="117.16794833741929" cy="13.690895324515722" r="2.4" fill="#B9F2FF" stroke="#1A6EA0" stroke-width="0.5" opacity="0.85"/>
     <circle cx="133.6761420481279" cy="18.69860113900677" r="2.4" fill="#B9F2FF" stroke="#1A6EA0" stroke-width="0.5" opacity="0.85"/>
     <circle cx="148.890180505725" cy="26.83067411737602" r="2.4" fill="#B9F2FF" stroke="#1A6EA0" stroke-width="0.5" opacity="0.85"/>
@@ -101,38 +71,15 @@
     <circle cx="66.32385795187204" cy="18.698601139006783" r="2.4" fill="#B9F2FF" stroke="#1A6EA0" stroke-width="0.5" opacity="0.85"/>
     <circle cx="82.83205166258068" cy="13.690895324515736" r="2.4" fill="#B9F2FF" stroke="#1A6EA0" stroke-width="0.5" opacity="0.85"/>
     
-
-  <!-- Tier stars -->
-  <polygon points="83.5,18 87.30422606518061,20.76393202250021 85.8511410091699,25.23606797749979 81.1488589908301,25.23606797749979 79.69577393481939,20.76393202250021" fill="#FFFFFF" stroke="#1A6EA0" stroke-width="0.3" opacity="0.9"/>
+<polygon points="83.5,18 87.30422606518061,20.76393202250021 85.8511410091699,25.23606797749979 81.1488589908301,25.23606797749979 79.69577393481939,20.76393202250021" fill="#FFFFFF" stroke="#1A6EA0" stroke-width="0.3" opacity="0.9"/>
     <polygon points="94.5,18 98.30422606518061,20.76393202250021 96.8511410091699,25.23606797749979 92.1488589908301,25.23606797749979 90.69577393481939,20.76393202250021" fill="#FFFFFF" stroke="#1A6EA0" stroke-width="0.3" opacity="0.9"/>
     <polygon points="105.5,18 109.30422606518061,20.76393202250021 107.8511410091699,25.23606797749979 103.1488589908301,25.23606797749979 101.69577393481939,20.76393202250021" fill="#FFFFFF" stroke="#1A6EA0" stroke-width="0.3" opacity="0.9"/>
     <polygon points="116.5,18 120.30422606518061,20.76393202250021 118.8511410091699,25.23606797749979 114.1488589908301,25.23606797749979 112.69577393481939,20.76393202250021" fill="#FFFFFF" stroke="#1A6EA0" stroke-width="0.3" opacity="0.9"/>
     
-
-  <!-- Icon ring -->
-  <circle cx="100" cy="94" r="42" fill="none" stroke="#B9F2FF" stroke-width="1" opacity="0.4"/>
-
-  <!-- Vector icon -->
-  <g filter="url(#ig4)">
-    <g transform="translate(0,-6)">
-    <rect x="-21.84" y="-15.287999999999998" width="43.68" height="37.128" rx="3.276" fill="none" stroke="#B9F2FF" stroke-width="2.34"/>
-    <rect x="-13.104" y="-12.012" width="6.552" height="3.276" rx="0.6552" fill="#B9F2FF" opacity="0.6"/>
-    <rect x="3.276" y="-12.012" width="6.552" height="3.276" rx="0.6552" fill="#B9F2FF" opacity="0.6"/>
-    <line x1="-4.368" y1="-12.012" x2="-4.368" y2="-15.287999999999998" stroke="#B9F2FF" stroke-width="1.56" stroke-linecap="round"/>
-    <line x1="4.368" y1="-12.012" x2="4.368" y2="-15.287999999999998" stroke="#B9F2FF" stroke-width="1.56" stroke-linecap="round"/>
-    <polyline points="-8.736,2.184 -2.184,7.643999999999999 10.92,-4.368" fill="none" stroke="#B9F2FF" stroke-width="2.86" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
-  </g>
-
-  <!-- Divider -->
-  <line x1="60" y1="132" x2="140" y2="132" stroke="#B9F2FF" stroke-width="0.5" opacity="0.5"/>
-
-  <!-- Badge name -->
-  <text x="100" y="150" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff" font-family="Arial,sans-serif" filter="drop-shadow(0 1px 1px rgba(0,0,0,0.6))">Legend Guardian</text>
-
-  <!-- Description -->
-  <text x="100" y="162" text-anchor="middle" font-size="8" fill="#B9F2FF" opacity="0.7" font-family="Arial,sans-serif" letter-spacing="1">180-day check-in streak</text>
-
-  <!-- Bottom arc -->
-  <path d="M65 172 Q100 180 135 172" fill="none" stroke="#B9F2FF" stroke-width="0.5" opacity="0.3"/>
+<circle cx="100" cy="94" r="42" fill="none" stroke="#B9F2FF" stroke-width="1" opacity="0.4"/>
+<g filter="url(#ig4)"><g transform="translate(100,94)"><ellipse cx="0" cy="-7.84" rx="19.599999999999998" ry="6.8599999999999985" fill="none" stroke="#B9F2FF" stroke-width="2.24"/><ellipse cx="0" cy="1.96" rx="19.599999999999998" ry="6.8599999999999985" fill="none" stroke="#B9F2FF" stroke-width="2.24"/><ellipse cx="0" cy="11.759999999999998" rx="19.599999999999998" ry="6.8599999999999985" fill="none" stroke="#B9F2FF" stroke-width="2.24"/><circle cx="0" cy="1.96" r="3.92" fill="none" stroke="#B9F2FF" stroke-width="1.68"/><text x="0" y="3.332" text-anchor="middle" font-size="4.8999999999999995" fill="#B9F2FF" font-weight="bold" font-family="Arial">G</text></g></g>
+<line x1="60" y1="132" x2="140" y2="132" stroke="#B9F2FF" stroke-width="0.5" opacity="0.5"/>
+<text x="100" y="150" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Arial,sans-serif" filter="drop-shadow(0 1px 1px rgba(0,0,0,0.6))">CUSTOS</text>
+<text x="100" y="162" text-anchor="middle" font-size="8" fill="#B9F2FF" opacity="0.7" font-family="Arial,sans-serif" letter-spacing="1">DIAMOND TIER · Diamond-tier guardian badge</text>
+<path d="M65 172 Q100 180 135 172" fill="none" stroke="#B9F2FF" stroke-width="0.5" opacity="0.3"/>
 </svg>

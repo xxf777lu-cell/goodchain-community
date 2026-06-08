@@ -1,6 +1,6 @@
 {
-  "name": "CGC Badge #7 — GDC Citizen",
-  "description": "Hold at least 500 GDC.",
+  "name": "CGC Badge #7 — ARCHON",
+  "description": "Silver-tier governance participant badge",
   "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/7.svg",
   "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
   "attributes": [
@@ -9,8 +9,8 @@
       "value": "Silver"
     },
     {
-      "trait_type": "Category",
-      "value": "Holding"
+      "trait_type": "Badge Type",
+      "value": "ARCHON"
     }
   ]
 }

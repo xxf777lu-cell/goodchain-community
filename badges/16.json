@@ -1,6 +1,6 @@
 {
-  "name": "CGC Badge #16 — Early Pioneer",
-  "description": "Be among the first 100 community members.",
+  "name": "CGC Badge #16 — GENESIS",
+  "description": "Founding member — among first 100 registrants",
   "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/16.svg",
   "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
   "attributes": [
@@ -9,8 +9,8 @@
       "value": "Diamond"
     },
     {
-      "trait_type": "Category",
-      "value": "Special"
+      "trait_type": "Badge Type",
+      "value": "GENESIS"
     }
   ]
 }
