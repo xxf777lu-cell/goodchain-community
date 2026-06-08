@@ -1,0 +1,16 @@
+{
+  "name": "CGC Badge #5 — Eternal Knight",
+  "description": "Achieve a 365-day check-in streak.",
+  "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/5.svg",
+  "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Category",
+      "value": "Check-in"
+    }
+  ]
+}

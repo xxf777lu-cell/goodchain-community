@@ -1,0 +1,16 @@
+{
+  "name": "CGC Badge #1 — Persistent",
+  "description": "Achieve a 7-day check-in streak.",
+  "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/1.svg",
+  "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Silver"
+    },
+    {
+      "trait_type": "Category",
+      "value": "Check-in"
+    }
+  ]
+}

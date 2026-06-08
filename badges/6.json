@@ -1,0 +1,16 @@
+{
+  "name": "CGC Badge #6 — GDC Resident",
+  "description": "Hold at least 100 GDC.",
+  "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/6.svg",
+  "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Bronze"
+    },
+    {
+      "trait_type": "Category",
+      "value": "Holding"
+    }
+  ]
+}
