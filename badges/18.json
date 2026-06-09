@@ -1,0 +1,16 @@
+{
+  "name": "CGC Badge #18 — VENATOR",
+  "description": "Gold-tier quest hunter badge",
+  "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/18.svg",
+  "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Badge Type",
+      "value": "VENATOR"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "CGC Badge #13 — SUFFRAGATOR",
+  "description": "Bronze-tier governance voter badge",
+  "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/13.svg",
+  "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Bronze"
+    },
+    {
+      "trait_type": "Badge Type",
+      "value": "SUFFRAGATOR"
+    }
+  ]
+}

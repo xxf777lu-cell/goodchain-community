@@ -1,0 +1,16 @@
+{
+  "name": "CGC Badge #17 — COMMENDATOR",
+  "description": "Silver-tier referral ambassador badge",
+  "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/17.svg",
+  "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Silver"
+    },
+    {
+      "trait_type": "Badge Type",
+      "value": "COMMENDATOR"
+    }
+  ]
+}

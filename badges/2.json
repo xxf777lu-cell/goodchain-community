@@ -1,0 +1,16 @@
+{
+  "name": "CGC Badge #2 — INDEFESSUS",
+  "description": "Gold-tier endurance badge",
+  "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/2.svg",
+  "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Badge Type",
+      "value": "INDEFESSUS"
+    }
+  ]
+}

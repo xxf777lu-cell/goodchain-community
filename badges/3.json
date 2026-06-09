@@ -1,0 +1,16 @@
+{
+  "name": "CGC Badge #3 — FERREUS",
+  "description": "Diamond-tier dedication badge",
+  "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/3.svg",
+  "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Diamond"
+    },
+    {
+      "trait_type": "Badge Type",
+      "value": "FERREUS"
+    }
+  ]
+}
