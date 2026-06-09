@@ -1,6 +1,6 @@
 {
-  "name": "CGC Badge #9 — CONSUL",
-  "description": "Diamond-tier elite guardian badge",
+  "name": "CGC Badge #9 — GDC Guardian",
+  "description": "Holder of >=10,000 GDC",
   "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/9.svg",
   "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
   "attributes": [
@@ -10,7 +10,7 @@
     },
     {
       "trait_type": "Badge Type",
-      "value": "CONSUL"
+      "value": "GDC Guardian"
     }
   ]
 }

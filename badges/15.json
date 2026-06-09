@@ -1,16 +1,16 @@
 {
-  "name": "CGC Badge #15 — PRIMUS",
-  "description": "Diamond-tier special early adopter badge",
+  "name": "CGC Badge #15 — Proposer",
+  "description": "Created 3 proposals",
   "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/15.svg",
   "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
   "attributes": [
     {
       "trait_type": "Tier",
-      "value": "Diamond"
+      "value": "Silver"
     },
     {
       "trait_type": "Badge Type",
-      "value": "PRIMUS"
+      "value": "Proposer"
     }
   ]
 }

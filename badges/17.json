@@ -1,6 +1,6 @@
 {
-  "name": "CGC Badge #17 — COMMENDATOR",
-  "description": "Silver-tier referral ambassador badge",
+  "name": "CGC Badge #17 — Referral Master",
+  "description": "Referred 5+ new members",
   "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/17.svg",
   "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
   "attributes": [
@@ -10,7 +10,7 @@
     },
     {
       "trait_type": "Badge Type",
-      "value": "COMMENDATOR"
+      "value": "Referral Master"
     }
   ]
 }

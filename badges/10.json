@@ -1,16 +1,16 @@
 {
-  "name": "CGC Badge #10 — NOVUS",
-  "description": "Bronze-tier newcomer activity badge",
+  "name": "CGC Badge #10 — GDC Whale",
+  "description": "Holder of >=50,000 GDC",
   "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/10.svg",
   "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
   "attributes": [
     {
       "trait_type": "Tier",
-      "value": "Bronze"
+      "value": "Legendary"
     },
     {
       "trait_type": "Badge Type",
-      "value": "NOVUS"
+      "value": "GDC Whale"
     }
   ]
 }

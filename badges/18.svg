@@ -74,7 +74,7 @@
 <circle cx="100" cy="94" r="42" fill="none" stroke="#FFC125" stroke-width="1" opacity="0.4"/>
 <g ><g transform="translate(100,94)"><polygon points="7.56,0 25.2,0 5.345727265770299,5.345727265770298 17.819090885900998,17.819090885900994 4.629164900776995e-16,7.56 1.543054966925665e-15,25.2 -5.345727265770298,5.345727265770299 -17.819090885900994,17.819090885900998 -7.56,9.25832980155399e-16 -25.2,3.08610993385133e-15 -5.3457272657703,-5.345727265770298 -17.819090885901,-17.819090885900994 -1.3887494702330984e-15,-7.56 -4.6291649007769944e-15,-25.2 5.345727265770297,-5.3457272657703 17.819090885900994,-17.819090885901" fill="none" stroke="#FFC125" stroke-width="1.68" stroke-linejoin="round"/><circle cx="0" cy="0" r="6.3" fill="none" stroke="#FFC125" stroke-width="1.9600000000000002"/><line x1="-30.24" y1="0" x2="30.24" y2="0" stroke="#FFC125" stroke-width="0.56" opacity="0.3"/><line x1="0" y1="-30.24" x2="0" y2="30.24" stroke="#FFC125" stroke-width="0.56" opacity="0.3"/></g></g>
 <line x1="60" y1="132" x2="140" y2="132" stroke="#FFC125" stroke-width="0.5" opacity="0.5"/>
-<text x="100" y="150" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Arial,sans-serif" filter="drop-shadow(0 1px 1px rgba(0,0,0,0.6))">VENATOR</text>
-<text x="100" y="162" text-anchor="middle" font-size="8" fill="#FFC125" opacity="0.7" font-family="Arial,sans-serif" letter-spacing="1">GOLD TIER · Gold-tier quest hunter badge</text>
+<text x="100" y="150" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff" font-family="Arial,sans-serif" filter="drop-shadow(0 1px 1px rgba(0,0,0,0.6))">Quest Hunter</text>
+<text x="100" y="162" text-anchor="middle" font-size="8" fill="#FFC125" opacity="0.7" font-family="Arial,sans-serif" letter-spacing="1">GOLD TIER · Completed 50+ quests</text>
 <path d="M65 172 Q100 180 135 172" fill="none" stroke="#FFC125" stroke-width="0.5" opacity="0.3"/>
 </svg>

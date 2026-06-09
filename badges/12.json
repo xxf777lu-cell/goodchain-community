@@ -1,16 +1,16 @@
 {
-  "name": "CGC Badge #12 — MAGISTER",
-  "description": "Gold-tier mastery badge",
+  "name": "CGC Badge #12 — Active Pioneer",
+  "description": "2,000 activity score",
   "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/12.svg",
   "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
   "attributes": [
     {
       "trait_type": "Tier",
-      "value": "Gold"
+      "value": "Silver"
     },
     {
       "trait_type": "Badge Type",
-      "value": "MAGISTER"
+      "value": "Active Pioneer"
     }
   ]
 }

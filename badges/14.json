@@ -1,16 +1,16 @@
 {
-  "name": "CGC Badge #14 — AUCTOR",
-  "description": "Silver-tier governance proposer badge",
+  "name": "CGC Badge #14 — Voter",
+  "description": "Voted in 10 proposals",
   "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/14.svg",
   "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
   "attributes": [
     {
       "trait_type": "Tier",
-      "value": "Silver"
+      "value": "Bronze"
     },
     {
       "trait_type": "Badge Type",
-      "value": "AUCTOR"
+      "value": "Voter"
     }
   ]
 }

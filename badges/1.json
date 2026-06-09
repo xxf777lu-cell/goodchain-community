@@ -1,6 +1,6 @@
 {
-  "name": "CGC Badge #1 — PERSISTENS",
-  "description": "Silver-tier streak badge",
+  "name": "CGC Badge #1 — Persistent",
+  "description": "7-day check-in streak",
   "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/1.svg",
   "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
   "attributes": [
@@ -10,7 +10,7 @@
     },
     {
       "trait_type": "Badge Type",
-      "value": "PERSISTENS"
+      "value": "Persistent"
     }
   ]
 }
