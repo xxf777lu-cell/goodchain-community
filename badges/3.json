@@ -1,6 +1,6 @@
 {
-  "name": "CGC Badge #3 — FERREUS",
-  "description": "Diamond-tier dedication badge",
+  "name": "CGC Badge #3 — ADAMANT",
+  "description": "Ninety days. The fire of conviction outlasts the forge.",
   "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/3.svg",
   "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
   "attributes": [
@@ -10,7 +10,7 @@
     },
     {
       "trait_type": "Badge Type",
-      "value": "FERREUS"
+      "value": "ADAMANT"
     }
   ]
 }

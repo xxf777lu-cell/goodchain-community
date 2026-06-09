@@ -65,6 +65,6 @@
 <g ><g transform="translate(100,94)"><ellipse cx="0" cy="-7.84" rx="19.599999999999998" ry="6.8599999999999985" fill="none" stroke="#A87B4A" stroke-width="2.24"/><ellipse cx="0" cy="1.96" rx="19.599999999999998" ry="6.8599999999999985" fill="none" stroke="#A87B4A" stroke-width="2.24"/><ellipse cx="0" cy="11.759999999999998" rx="19.599999999999998" ry="6.8599999999999985" fill="none" stroke="#A87B4A" stroke-width="2.24"/><circle cx="0" cy="1.96" r="3.92" fill="none" stroke="#A87B4A" stroke-width="1.68"/><text x="0" y="3.332" text-anchor="middle" font-size="4.8999999999999995" fill="#A87B4A" font-weight="bold" font-family="Arial">G</text></g></g>
 <line x1="60" y1="132" x2="140" y2="132" stroke="#A87B4A" stroke-width="0.5" opacity="0.5"/>
 <text x="100" y="150" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Arial,sans-serif" filter="drop-shadow(0 1px 1px rgba(0,0,0,0.6))">SCRIBE</text>
-<text x="100" y="162" text-anchor="middle" font-size="8" fill="#A87B4A" opacity="0.7" font-family="Arial,sans-serif" letter-spacing="1">BRONZE TIER · Bronze-tier community contributor badge</text>
+<text x="100" y="162" text-anchor="middle" font-size="8" fill="#A87B4A" opacity="0.7" font-family="Arial,sans-serif" letter-spacing="1">BRONZE TIER · 100 GDC. The first entry in the grand ledger.</text>
 <path d="M65 172 Q100 180 135 172" fill="none" stroke="#A87B4A" stroke-width="0.5" opacity="0.3"/>
 </svg>
