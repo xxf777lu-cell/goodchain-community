@@ -1,80 +1,85 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
 <defs>
-<linearGradient id="b8" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#5C3A00"/><stop offset="25%" stop-color="#B8860B"/><stop offset="50%" stop-color="#FFD700"/><stop offset="75%" stop-color="#B8860B"/><stop offset="100%" stop-color="#5C3A00"/></linearGradient>
-<linearGradient id="r8" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#5C3A00" stop-opacity="0.8"/><stop offset="30%" stop-color="#FFD700" stop-opacity="1"/><stop offset="60%" stop-color="#FFC125" stop-opacity="0.9"/><stop offset="100%" stop-color="#5C3A00" stop-opacity="0.8"/></linearGradient>
-<radialGradient id="s8" cx="30%" cy="30%" r="60%"><stop offset="0%" stop-color="#fff" stop-opacity="0.32"/><stop offset="50%" stop-color="#fff" stop-opacity="0.05"/><stop offset="100%" stop-color="#000" stop-opacity="0.27"/></radialGradient>
-<radialGradient id="c8" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFF8DC" stop-opacity="0.12"/><stop offset="100%" stop-color="#FFF8DC" stop-opacity="0"/></radialGradient>
-<filter id="sh8" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#000" flood-opacity="0.45"/></filter>
-
+  <radialGradient id="ring8" cx="50%" cy="50%" r="50%">
+    <stop offset="85%" stop-color="#FFD700"/>
+    <stop offset="95%" stop-color="#B8860B"/>
+    <stop offset="100%" stop-color="#B8860B" stop-opacity="0.8"/>
+  </radialGradient>
+  <radialGradient id="bg8" cx="50%" cy="45%" r="55%">
+    <stop offset="0%" stop-color="#2A1520"/>
+    <stop offset="100%" stop-color="#0A0E18"/>
+  </radialGradient>
+  <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.5"/>
+  </filter>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="3" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <linearGradient id="gdcBg8" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#1A0A30"/><stop offset="50%" stop-color="#0E1420"/><stop offset="100%" stop-color="#0A0E1A"/>
+  </linearGradient>
+  
 </defs>
-<circle cx="100" cy="100" r="96" fill="none" stroke="#FFF8DC" stroke-width="1.7999999999999998" opacity="0.25" filter="url(#sh8)"/>
-<circle cx="100" cy="100" r="92" fill="url(#r8)" stroke="#B8860B" stroke-width="1.5" filter="url(#sh8)"/>
-<circle cx="100" cy="100" r="87" fill="none" stroke="#FFD700" stroke-width="0.5" opacity="0.4"/>
-<circle cx="100" cy="100" r="82" fill="url(#b8)" stroke="#FFD700" stroke-width="1.2"/>
-<line x1="124.6" y1="100" x2="182" y2="100" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="123.76177532671107" y1="106.366948509522" x2="179.20591775570358" y2="121.2231616984067" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="121.30422493309719" y1="112.3" x2="171.01408311032398" y2="141" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="117.39482681718907" y1="117.39482681718907" x2="157.9827560572969" y2="157.98275605729688" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="112.3" y1="121.30422493309719" x2="141" y2="171.01408311032395" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="106.36694850952202" y1="123.76177532671107" x2="121.22316169840673" y2="179.20591775570358" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="100" y1="124.6" x2="100" y2="182" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="93.633051490478" y1="123.76177532671107" x2="78.7768383015933" y2="179.20591775570358" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="87.7" y1="121.30422493309719" x2="59.00000000000002" y2="171.01408311032398" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="82.60517318281093" y1="117.39482681718907" x2="42.01724394270311" y2="157.9827560572969" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="78.69577506690281" y1="112.30000000000001" x2="28.985916889676048" y2="141.00000000000003" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="76.23822467328893" y1="106.36694850952202" x2="20.794082244296405" y2="121.22316169840673" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="75.4" y1="100" x2="18" y2="100.00000000000001" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="76.23822467328893" y1="93.633051490478" x2="20.79408224429639" y2="78.77683830159333" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="78.69577506690281" y1="87.7" x2="28.98591688967602" y2="59.00000000000002" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="82.60517318281092" y1="82.60517318281094" x2="42.017243942703075" y2="42.01724394270313" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="87.69999999999999" y1="78.69577506690281" x2="58.999999999999964" y2="28.985916889676048" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="93.63305149047797" y1="76.23822467328893" x2="78.77683830159324" y2="20.79408224429642" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="100" y1="75.4" x2="99.99999999999999" y2="18" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="106.366948509522" y1="76.23822467328893" x2="121.22316169840667" y2="20.79408224429639" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="112.29999999999998" y1="78.6957750669028" x2="140.99999999999994" y2="28.985916889676005" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="117.39482681718906" y1="82.60517318281093" x2="157.98275605729688" y2="42.01724394270309" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="121.30422493309717" y1="87.69999999999999" x2="171.01408311032395" y2="58.999999999999964" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    <line x1="123.76177532671107" y1="93.63305149047797" x2="179.20591775570358" y2="78.77683830159323" stroke="#FFD700" stroke-width="1.2" opacity="0.22" stroke-linecap="round"/>
-    
-<circle cx="100" cy="100" r="50" fill="url(#c8)"/>
-<circle cx="100" cy="100" r="82" fill="url(#s8)"/>
-<circle cx="100" cy="12" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="119.58184218815568" cy="14.206343727999524" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="138.1817690423451" cy="20.71473962458711" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="154.86710256356855" cy="31.19882954281337" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="168.80117045718663" cy="45.132897436431456" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="179.2852603754129" cy="61.81823095765488" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="185.79365627200048" cy="80.41815781184434" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="188" cy="100" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="185.79365627200048" cy="119.58184218815566" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="179.2852603754129" cy="138.1817690423451" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="168.80117045718663" cy="154.86710256356855" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="154.86710256356855" cy="168.80117045718663" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="138.1817690423451" cy="179.2852603754129" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="119.58184218815568" cy="185.79365627200048" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="100" cy="188" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="80.41815781184434" cy="185.79365627200048" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="61.81823095765489" cy="179.2852603754129" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="45.132897436431456" cy="168.80117045718663" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="31.198829542813385" cy="154.86710256356855" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="20.714739624587125" cy="138.18176904234514" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="14.206343727999524" cy="119.58184218815568" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="12" cy="100.00000000000001" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="14.206343727999524" cy="80.41815781184434" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="20.71473962458711" cy="61.8182309576549" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="31.19882954281337" cy="45.13289743643146" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="45.132897436431435" cy="31.198829542813385" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="61.81823095765487" cy="20.714739624587125" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    <circle cx="80.41815781184431" cy="14.206343727999524" r="2.0999999999999996" fill="#FFC125" stroke="#B8860B" stroke-width="0.5" opacity="0.85"/>
-    
-<polygon points="89,18 92.80422606518061,20.76393202250021 91.3511410091699,25.23606797749979 86.6488589908301,25.23606797749979 85.19577393481939,20.76393202250021" fill="#FFD700" stroke="#B8860B" stroke-width="0.3" opacity="0.9"/>
-    <polygon points="100,18 103.80422606518061,20.76393202250021 102.3511410091699,25.23606797749979 97.6488589908301,25.23606797749979 96.19577393481939,20.76393202250021" fill="#FFD700" stroke="#B8860B" stroke-width="0.3" opacity="0.9"/>
-    <polygon points="111,18 114.80422606518061,20.76393202250021 113.3511410091699,25.23606797749979 108.6488589908301,25.23606797749979 107.19577393481939,20.76393202250021" fill="#FFD700" stroke="#B8860B" stroke-width="0.3" opacity="0.9"/>
-    
-<circle cx="100" cy="94" r="42" fill="none" stroke="#FFC125" stroke-width="1" opacity="0.4"/>
-<g ><g transform="translate(100,94)"><ellipse cx="0" cy="-7.84" rx="19.599999999999998" ry="6.8599999999999985" fill="none" stroke="#FFC125" stroke-width="2.24"/><ellipse cx="0" cy="1.96" rx="19.599999999999998" ry="6.8599999999999985" fill="none" stroke="#FFC125" stroke-width="2.24"/><ellipse cx="0" cy="11.759999999999998" rx="19.599999999999998" ry="6.8599999999999985" fill="none" stroke="#FFC125" stroke-width="2.24"/><circle cx="0" cy="1.96" r="3.92" fill="none" stroke="#FFC125" stroke-width="1.68"/><text x="0" y="3.332" text-anchor="middle" font-size="4.8999999999999995" fill="#FFC125" font-weight="bold" font-family="Arial">G</text></g></g>
-<line x1="60" y1="132" x2="140" y2="132" stroke="#FFC125" stroke-width="0.5" opacity="0.5"/>
-<text x="100" y="150" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff" font-family="Arial,sans-serif" filter="drop-shadow(0 1px 1px rgba(0,0,0,0.6))">GDC Lord</text>
-<text x="100" y="162" text-anchor="middle" font-size="8" fill="#FFC125" opacity="0.7" font-family="Arial,sans-serif" letter-spacing="1">GOLD TIER · Holder of >=2,000 GDC</text>
-<path d="M65 172 Q100 180 135 172" fill="none" stroke="#FFC125" stroke-width="0.5" opacity="0.3"/>
+
+<!-- Background circle -->
+<circle cx="100" cy="100" r="96" fill="url(#gdcBg8)" stroke="url(#ring8)" stroke-width="6" filter="url(#sh)"/>
+
+<!-- Tier accent ring -->
+<circle cx="100" cy="100" r="88" fill="none" stroke="#FFD700" stroke-width="0.5" opacity="0.3" stroke-dasharray="3 3"/>
+
+<!-- Background element -->
+<line x1="100" y1="50" x2="100" y2="80" stroke="#FFD700" stroke-width="1" opacity="0.08"/><line x1="95" y1="75" x2="105" y2="75" stroke="#FFD700" stroke-width="0.5" opacity="0.08"/>
+
+<!-- Upper body -->
+<path d="M74,98 Q72,108 78,130 L122,130 Q128,108 126,98 Q115,103 100,105 Q85,103 74,98Z" fill="#2D3748" opacity="0.3"/><line x1="85" y1="110" x2="115" y2="110" stroke="#4A5568" stroke-width="0.5" opacity="0.15"/>
+
+<!-- Neck -->
+<rect x="96" y="96" width="8" height="8" rx="2" fill="#FDE8D0"/>
+
+<!-- Anime Face -->
+<ellipse cx="100" cy="78" rx="22" ry="24" fill="#FDE8D0" stroke="#E8C9A8" stroke-width="0.5"/>
+<path d="M78,74 L74,60 L80,58 L82,52 L88,54 L92,48 L97,52 L102,48 L107,52 L112,50 L116,56 L122,58 L124,64 L122,74 Q120,81 100,81 Q80,81 78,74Z" fill="#8B0000"/>
+<ellipse cx="91" cy="81" rx="7" ry="9.1" fill="#fff"/>
+<ellipse cx="109" cy="81" rx="7" ry="9.1" fill="#fff"/>
+<ellipse cx="91" cy="82" rx="4.8999999999999995" ry="5.915" fill="#2C1810"/>
+<ellipse cx="109" cy="82" rx="4.8999999999999995" ry="5.915" fill="#2C1810"/>
+<ellipse cx="91" cy="82" rx="2.4499999999999997" ry="3.1849999999999996" fill="#000"/>
+<ellipse cx="109" cy="82" rx="2.4499999999999997" ry="3.1849999999999996" fill="#000"/>
+<circle cx="89" cy="79" r="2.4499999999999997" fill="#fff" opacity="0.8"/>
+<circle cx="107" cy="79" r="2.4499999999999997" fill="#fff" opacity="0.8"/>
+<circle cx="93.5" cy="83.5" r="1.2249999999999999" fill="#fff" opacity="0.5"/>
+<circle cx="111.5" cy="83.5" r="1.2249999999999999" fill="#fff" opacity="0.5"/>
+<path d="M84,68.9 Q91,66.9 98,68.9" fill="none" stroke="#8B0000" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M102,68.9 Q109,66.9 116,68.9" fill="none" stroke="#8B0000" stroke-width="1.2" stroke-linecap="round"/>
+<path d="M96,93.1 Q100,96.1 104,93.1" fill="none" stroke="#B87060" stroke-width="0.8" stroke-linecap="round"/>
+<ellipse cx="89" cy="92.1" rx="3" ry="1.5" fill="#F0A0A0" opacity="0.3"/>
+<ellipse cx="111" cy="92.1" rx="3" ry="1.5" fill="#F0A0A0" opacity="0.3"/>
+
+<!-- CGC Badge on chest -->
+
+<g transform="translate(100,125)">
+  <defs>
+    <radialGradient id="cg100_125" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#fcd34d"/>
+      <stop offset="40%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </radialGradient>
+  </defs>
+  <circle cx="0" cy="0" r="11" fill="#b45309" filter="url(#sh)"/>
+  <circle cx="0" cy="0" r="9" fill="url(#cg100_125)"/>
+  <circle cx="0" cy="0" r="6.4799999999999995" fill="none" stroke="rgba(120,53,15,0.4)" stroke-width="0.5"/>
+  <text x="0" y="2" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="8" fill="#fff">G</text>
+  <text x="0" y="7" text-anchor="middle" dominant-baseline="middle" font-family="Arial,sans-serif" font-weight="bold" font-size="2" fill="rgba(255,255,255,0.8)" letter-spacing="1">CGC</text>
+  <ellipse cx="-2" cy="-3" rx="3" ry="2" transform="rotate(-20)" fill="rgba(255,255,255,0.2)"/>
+</g>
+
+<!-- Name label background -->
+<rect x="30" y="155" width="140" height="22" rx="11" fill="rgba(0,0,0,0.4)" stroke="#FFD700" stroke-width="0.5"/>
+
+<!-- Badge Name -->
+<text x="100" y="170" text-anchor="middle" font-size="12" font-weight="bold" fill="#FFD700" font-family="Arial,sans-serif" letter-spacing="2">PRAETOR</text>
+
+<!-- Description at bottom -->
+<text x="100" y="186" text-anchor="middle" font-size="5.5" fill="rgba(255,255,255,0.5)" font-family="Arial,sans-serif">2,000 GDC. Steward of the growing republic.</text>
 </svg>

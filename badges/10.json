@@ -1,6 +1,6 @@
 {
-  "name": "CGC Badge #10 — GDC Whale",
-  "description": "Holder of >=50,000 GDC",
+  "name": "CGC Badge #10 — IMPERATOR",
+  "description": "50,000 GDC. A pillar upon which civilization stands.",
   "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/10.svg",
   "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
   "attributes": [
@@ -10,7 +10,7 @@
     },
     {
       "trait_type": "Badge Type",
-      "value": "GDC Whale"
+      "value": "IMPERATOR"
     }
   ]
 }

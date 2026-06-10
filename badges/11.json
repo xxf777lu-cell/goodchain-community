@@ -1,6 +1,6 @@
 {
-  "name": "CGC Badge #11 — Active Newcomer",
-  "description": "500 activity score",
+  "name": "CGC Badge #11 — EMBER",
+  "description": "500 activity. A single spark in the dark.",
   "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/11.svg",
   "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
   "attributes": [
@@ -10,7 +10,7 @@
     },
     {
       "trait_type": "Badge Type",
-      "value": "Active Newcomer"
+      "value": "EMBER"
     }
   ]
 }

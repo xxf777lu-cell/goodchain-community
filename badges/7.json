@@ -1,6 +1,6 @@
 {
-  "name": "CGC Badge #7 — GDC Citizen",
-  "description": "Holder of >=500 GDC",
+  "name": "CGC Badge #7 — ARCHON",
+  "description": "500 GDC. A voice that carries weight in the assembly.",
   "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/7.svg",
   "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
   "attributes": [
@@ -10,7 +10,7 @@
     },
     {
       "trait_type": "Badge Type",
-      "value": "GDC Citizen"
+      "value": "ARCHON"
     }
   ]
 }

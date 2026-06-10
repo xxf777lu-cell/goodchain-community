@@ -1,6 +1,6 @@
 {
-  "name": "CGC Badge #18 — Quest Hunter",
-  "description": "Completed 50+ quests",
+  "name": "CGC Badge #18 — ODYSSEY",
+  "description": "Fifty quests. The journey was the destination.",
   "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/18.svg",
   "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
   "attributes": [
@@ -10,7 +10,7 @@
     },
     {
       "trait_type": "Badge Type",
-      "value": "Quest Hunter"
+      "value": "ODYSSEY"
     }
   ]
 }
