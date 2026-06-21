@@ -38,16 +38,12 @@
       }, 8000);
     </script>
     <script>
-      // 🔄 Version cache buster: force reload if page is stale
+      // 🔄 Force disable all caching via meta refresh
       (function() {
-        var BUILD_TIME = '2026-06-22T03:49Z';
-        var stored = localStorage.getItem('punch_build_version');
-        if (stored && stored !== BUILD_TIME) {
-          localStorage.clear();
-          location.reload(true);
-        } else if (!stored) {
-          localStorage.setItem('punch_build_version', BUILD_TIME);
-        }
+        var meta = document.createElement('meta');
+        meta.httpEquiv = 'Cache-Control';
+        meta.content = 'no-cache, no-store, must-revalidate';
+        document.head.appendChild(meta);
       })();
     </script>
   </body>
