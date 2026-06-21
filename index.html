@@ -2,6 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <link rel="icon" type="image/svg+xml" href="./cgc-logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Community Governance Coin (CGC) on GoodChain. Stake, swap, earn rewards, and participate in community governance." />
@@ -33,6 +36,19 @@
           document.getElementById('fallback-msg').style.color = '#fca5a5';
         }
       }, 8000);
+    </script>
+    <script>
+      // 🔄 Version cache buster: force reload if page is stale
+      (function() {
+        var BUILD_TIME = '2026-06-22T03:49Z';
+        var stored = localStorage.getItem('punch_build_version');
+        if (stored && stored !== BUILD_TIME) {
+          localStorage.clear();
+          location.reload(true);
+        } else if (!stored) {
+          localStorage.setItem('punch_build_version', BUILD_TIME);
+        }
+      })();
     </script>
   </body>
 </html>
