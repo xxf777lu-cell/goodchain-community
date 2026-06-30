@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="coin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="15%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#ea580c"/>
+      <stop offset="85%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#be123c"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="30%" stop-color="#fbbf24"/>
+      <stop offset="70%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+    <radialGradient id="face" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#fcd34d"/>
+      <stop offset="40%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </radialGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#451a03" flood-opacity="0.5"/>
+    </filter>
+    <filter id="letter-shadow">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#451a03" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Outer rim -->
+  <circle cx="128" cy="128" r="112" fill="url(#rim)" filter="url(#shadow)"/>
+
+  <!-- Coin face -->
+  <circle cx="128" cy="128" r="104" fill="url(#coin)"/>
+  <circle cx="128" cy="128" r="100" fill="url(#face)"/>
+
+  <!-- Inner decorative ring -->
+  <circle cx="128" cy="128" r="82" fill="none" stroke="rgba(120,53,15,0.3)" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="128" cy="128" r="80" fill="none" stroke="rgba(253,230,138,0.35)" stroke-width="1"/>
+
+  <!-- Serrated edge notches -->
+  <g fill="url(#rim)">
+    <circle cx="128" cy="20" r="4"/><circle cx="152" cy="22" r="3.5"/><circle cx="176" cy="28" r="3.5"/>
+    <circle cx="198" cy="38" r="3.5"/><circle cx="218" cy="52" r="3.5"/><circle cx="232" cy="68" r="3.5"/>
+    <circle cx="242" cy="88" r="3.5"/><circle cx="246" cy="108" r="3.5"/><circle cx="248" cy="128" r="3.5"/>
+    <circle cx="246" cy="148" r="3.5"/><circle cx="242" cy="168" r="3.5"/><circle cx="232" cy="188" r="3.5"/>
+    <circle cx="218" cy="204" r="3.5"/><circle cx="198" cy="218" r="3.5"/><circle cx="176" cy="228" r="3.5"/>
+    <circle cx="152" cy="234" r="3.5"/><circle cx="128" cy="236" r="4"/><circle cx="104" cy="234" r="3.5"/>
+    <circle cx="80" cy="228" r="3.5"/><circle cx="58" cy="218" r="3.5"/><circle cx="38" cy="204" r="3.5"/>
+    <circle cx="24" cy="188" r="3.5"/><circle cx="14" cy="168" r="3.5"/><circle cx="10" cy="148" r="3.5"/>
+    <circle cx="8" cy="128" r="3.5"/><circle cx="10" cy="108" r="3.5"/><circle cx="14" cy="88" r="3.5"/>
+    <circle cx="24" cy="68" r="3.5"/><circle cx="38" cy="52" r="3.5"/><circle cx="58" cy="38" r="3.5"/>
+    <circle cx="80" cy="28" r="3.5"/><circle cx="104" cy="22" r="3.5"/>
+  </g>
+
+  <!-- Big G letter -->
+  <text x="130" y="125" text-anchor="middle" dominant-baseline="middle"
+        font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="105"
+        fill="rgba(120,53,15,0.7)" filter="url(#letter-shadow)">G</text>
+  <text x="128" y="122" text-anchor="middle" dominant-baseline="middle"
+        font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="105"
+        fill="#fff" filter="url(#letter-shadow)">G</text>
+
+  <!-- CGC text -->
+  <text x="128" y="186" text-anchor="middle" dominant-baseline="middle"
+        font-family="Arial, sans-serif" font-weight="bold" font-size="22"
+        fill="rgba(120,53,15,0.6)" letter-spacing="8">CGC</text>
+  <text x="128" y="184" text-anchor="middle" dominant-baseline="middle"
+        font-family="Arial, sans-serif" font-weight="bold" font-size="22"
+        fill="rgba(255,255,255,0.9)" letter-spacing="8">CGC</text>
+
+  <!-- Shine highlight -->
+  <ellipse cx="100" cy="80" rx="45" ry="25" transform="rotate(-20 100 80)"
+           fill="rgba(255,255,255,0.18)"/>
+  <ellipse cx="90" cy="72" rx="25" ry="12" transform="rotate(-20 90 72)"
+           fill="rgba(255,255,255,0.12)"/>
+</svg>

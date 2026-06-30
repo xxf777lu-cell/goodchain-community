@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verification Report - Treasury</title>
+<style>
+  :root { --bg: #1a1a2e; --card: #16213e; --accent: #0f3460; --text: #e0e0e0; --warn: #e94560; --ok: #4ecca3; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+         background: var(--bg); color: var(--text); line-height: 1.6; padding: 20px; }
+  .container { max-width: 960px; margin: 0 auto; }
+  h1 { color: var(--ok); margin-bottom: 10px; font-size: 1.8em; }
+  h2 { color: #fff; margin: 30px 0 15px; border-bottom: 1px solid var(--accent); padding-bottom: 8px; }
+  h3 { color: #ccc; margin: 20px 0 10px; }
+  .status-badge { display: inline-block; padding: 4px 14px; border-radius: 4px;
+    background: var(--warn); color: #fff; font-weight: bold; font-size: 0.85em; }
+  .meta { background: var(--card); border-radius: 8px; padding: 20px; margin: 15px 0; }
+  .meta-grid { display: grid; grid-template-columns: 140px 1fr; gap: 8px 16px; font-size: 0.95em; }
+  .meta-grid .label { color: #999; }
+  .meta-grid .value { word-break: break-all; }
+  .hash-box { background: #111; border-radius: 6px; padding: 12px; font-family: monospace; font-size: 0.8em;
+    word-break: break-all; color: #aaa; margin-top: 8px; max-height: 200px; overflow-y: auto; }
+  pre { background: #111; border-radius: 6px; padding: 16px; overflow-x: auto; font-size: 0.8em;
+    line-height: 1.4; max-height: 500px; overflow-y: auto; border: 1px solid #333; }
+  .note { background: #1e1e30; border-left: 4px solid var(--warn); padding: 12px 16px;
+    border-radius: 4px; margin: 15px 0; color: #ccc; font-size: 0.9em; }
+  .nav { margin: 20px 0; padding: 10px 0; border-bottom: 1px solid #333; }
+  .nav a { color: var(--ok); text-decoration: none; margin-right: 16px; font-size: 0.9em; }
+  .nav a:hover { text-decoration: underline; }
+  nav a { color: var(--ok); text-decoration: none; margin-right: 16px; font-size: 0.9em; }
+  nav a:hover { text-decoration: underline; }
+  .toc { display: flex; flex-wrap: wrap; gap: 8px; margin: 15px 0; }
+  .toc a { background: var(--card); padding: 8px 16px; border-radius: 6px; color: #ddd;
+    text-decoration: none; font-size: 0.9em; border: 1px solid transparent; }
+  .toc a:hover { border-color: var(--ok); color: var(--ok); }
+  @media (max-width: 600px) { .meta-grid { grid-template-columns: 1fr; gap: 4px; } }
+</style>
+</head>
+<body>
+<div class="container">
+  <nav><a href=".">← Index</a> | <strong>Treasury</strong></nav>
+  
+  <h1>Treasury</h1>
+  <span class="status-badge">⚠ Self-Hosted Verification</span>
+  <p style="margin-top: 8px;color:#999;font-size:0.9em;">
+    This contract could not be verified through BlockScout auto-verification due to compilation environment differences.
+    See full explanation below.
+  </p>
+
+  <div class="meta">
+    <div class="meta-grid">
+      <span class="label">Address</span>
+      <span class="value"><code>0x931D3EdE64683e4e72C05D9DF818f4b4781E6be5</code></span>
+      <span class="label">Network</span>
+      <span class="value">GoodChain (Chain ID: 219)</span>
+      <span class="label">Compiler</span>
+      <span class="value">v0.8.28</span>
+      <span class="label">Optimization</span>
+      <span class="value">Enabled (200 runs)</span>
+      <span class="label">EVM Version</span>
+      <span class="value">istanbul</span>
+      <span class="label">Block (checked)</span>
+      <span class="value">#2166623</span>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>⚠ Why not on BlockScout?</strong><br>
+    GoodChain BlockScout's auto-verification requires exact bytecode match. 
+    Our contracts use OpenZeppelin v5 dependencies and were compiled on a Windows environment 
+    with solc vv0.8.28. The BlockScout backend's solc binary produces bytecode 
+    with ~258 differences (all in runtime code) despite matching IPFS metadata hashes — 
+    indicating platform-level binary differences. The <code>verify</code> API endpoint 
+    also consistently returns Elixir-side errors.
+  </div>
+
+  <h2>Deployed Bytecode</h2>
+  <p style="color:#999;font-size:0.9em;margin-bottom:8px;">
+    Chain code fetched via <code>eth_getCode</code>. Length: 4,956 bytes.
+    SHA-256: <code>ac967da1593f45ed4be819d81e5f0927fa553f5234b288405241cb155dae11de</code>
+  </p>
+  <pre style="max-height:150px">0x60806040526004361061008a5760003560e01c80635c975abb116100595780635c975abb1461013e5780638456cb59146101695780638da5cb5b14610180578063f2fde38b146101ab578063f3fef3a3146101d457610091565b806301e336671461009657806312065fe0146100bf5780633aecd0e3146100ea5780633f4ba83a1461012757610091565b3661009157005b600080fd5b3480156100a257600080fd5b506100bd60048036038101906100b89190610d64565b6101fd565b005b3480156100cb57600080fd5b506100d461058b565b6040516100e19190610dc6565b60405180910390f35b3480156100f657600080fd5b50610111600480360381019061010c9190610de1565b610593565b60405161011e9190610dc6565b60405180910390f35b34801561013357600080fd5b5061013c6106ee565b005b34801561014a57600080fd5b506101536107cf565b6040516101609190610e29565b60405180910390f35b34801561017557600080fd5b5061017e6107e2565b005b34801561018c57600080fd5b506101956108c4565b6040516101a29190610e53565b60405180910390f35b3480156101b757600080fd5b506101d260048036038101906101cd9190610de1565b6108e8565b005b3480156101e057600080fd5b506101fb60048036038101906101f6919061...12b9565b602082019050919050565b6000602082019050818103600083015261131e816112e2565b905091905056fea26469706673582212201748cf2f5eb62df611bd15c580d6fbc6e05e3467498eed4f5a802c01eda2334164736f6c634300081c0033</pre>
+  <p style="text-align:right;margin-top:4px;">
+    <a href="#" onclick="document.getElementById('fullCode').style.display='block';return false">Show full bytecode</a>
+  </p>
+  <pre id="fullCode" style="display:none">0x60806040526004361061008a5760003560e01c80635c975abb116100595780635c975abb1461013e5780638456cb59146101695780638da5cb5b14610180578063f2fde38b146101ab578063f3fef3a3146101d457610091565b806301e336671461009657806312065fe0146100bf5780633aecd0e3146100ea5780633f4ba83a1461012757610091565b3661009157005b600080fd5b3480156100a257600080fd5b506100bd60048036038101906100b89190610d64565b6101fd565b005b3480156100cb57600080fd5b506100d461058b565b6040516100e19190610dc6565b60405180910390f35b3480156100f657600080fd5b50610111600480360381019061010c9190610de1565b610593565b60405161011e9190610dc6565b60405180910390f35b34801561013357600080fd5b5061013c6106ee565b005b34801561014a57600080fd5b506101536107cf565b6040516101609190610e29565b60405180910390f35b34801561017557600080fd5b5061017e6107e2565b005b34801561018c57600080fd5b506101956108c4565b6040516101a29190610e53565b60405180910390f35b3480156101b757600080fd5b506101d260048036038101906101cd9190610de1565b6108e8565b005b3480156101e057600080fd5b506101fb60048036038101906101f69190610e6e565b610aa2565b005b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461028b576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161028290610f31565b60405180910390fd5b600060149054906101000a900460ff16156102db576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016102d290610f9d565b60405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168373ffffffffffffffffffffffffffffffffffffffff160361034a576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161034190611009565b60405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff16036103b9576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016103b090611075565b60405180910390fd5b6000808473ffffffffffffffffffffffffffffffffffffffff1684846040516024016103e6929190611095565b6040516020818303038152906040527fa9059cbb000000000000000000000000000000000000000000000000000000007bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19166020820180517bffffffffffffffffffffffffffffffffffffffffffffffffffffffff8381831617835250505050604051610470919061112f565b6000604051808303816000865af19150503d80600081146104ad576040519150601f19603f3d011682016040523d82523d6000602084013e6104b2565b606091505b50915091508180156104e057506000815114806104df5750808060200190518101906104de9190611172565b5b5b61051f576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610516906111eb565b60405180910390fd5b8373ffffffffffffffffffffffffffffffffffffffff168573ffffffffffffffffffffffffffffffffffffffff167f037238854fe57fbf51f09946f854fc3916fe83938d6521f09bd05463839f13048560405161057c9190610dc6565b60405180910390a35050505050565b600047905090565b60008060008373ffffffffffffffffffffffffffffffffffffffff16306040516024016105c09190610e53565b6040516020818303038152906040527f70a08231000000000000000000000000000000000000000000000000000000007bffffffffffffffffffffffffffffffffffffffffffffffffffffffff19166020820180517bffffffffffffffffffffffffffffffffffffffffffffffffffffffff838183161783525050505060405161064a919061112f565b6000604051808303816000865af19150503d8060008114610687576040519150601f19603f3d011682016040523d82523d6000602084013e61068c565b606091505b5091509150816106d1576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016106c890611257565b60405180910390fd5b808060200190518101906106e5919061128c565b92505050919050565b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461077c576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161077390610f31565b60405180910390fd5b60008060146101000a81548160ff0219169083151502179055507f5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa336040516107c59190610e53565b60405180910390a1565b600060149054906101000a900460ff1681565b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610870576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161086790610f31565b60405180910390fd5b6001600060146101000a81548160ff0219169083151502179055507f62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a258336040516108ba9190610e53565b60405180910390a1565b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610976576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161096d90610f31565b60405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff16036109e5576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016109dc90611075565b60405180910390fd5b8073ffffffffffffffffffffffffffffffffffffffff1660008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555050565b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610b30576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610b2790610f31565b60405180910390fd5b600060149054906101000a900460ff1615610b80576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610b7790610f9d565b60405180910390fd5b600073ffffffffffffffffffffffffffffffffffffffff168273ffffffffffffffffffffffffffffffffffffffff1603610bef576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610be690611075565b60405180910390fd5b47811115610c32576040517f08c379a0000000000000000000000000000000000000000000000000000000008152600401610c2990611305565b60405180910390fd5b8173ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f19350505050158015610c78573d6000803e3d6000fd5b508173ffffffffffffffffffffffffffffffffffffffff167f884edad9ce6fa2440d8a54cc123490eb96d2768479d49ff9c7366125a942436482604051610cbf9190610dc6565b60405180910390a25050565b600080fd5b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000610cfb82610cd0565b9050919050565b610d0b81610cf0565b8114610d1657600080fd5b50565b600081359050610d2881610d02565b92915050565b6000819050919050565b610d4181610d2e565b8114610d4c57600080fd5b50565b600081359050610d5e81610d38565b92915050565b600080600060608486031215610d7d57610d7c610ccb565b5b6000610d8b86828701610d19565b9350506020610d9c86828701610d19565b9250506040610dad86828701610d4f565b9150509250925092565b610dc081610d2e565b82525050565b6000602082019050610ddb6000830184610db7565b92915050565b600060208284031215610df757610df6610ccb565b5b6000610e0584828501610d19565b91505092915050565b60008115159050919050565b610e2381610e0e565b82525050565b6000602082019050610e3e6000830184610e1a565b92915050565b610e4d81610cf0565b82525050565b6000602082019050610e686000830184610e44565b92915050565b60008060408385031215610e8557610e84610ccb565b5b6000610e9385828601610d19565b9250506020610ea485828601610d4f565b9150509250929050565b600082825260208201905092915050565b7f54726561737572793a2063616c6c6572206973206e6f7420746865206f776e6560008201527f7200000000000000000000000000000000000000000000000000000000000000602082015250565b6000610f1b602183610eae565b9150610f2682610ebf565b604082019050919050565b60006020820190508181036000830152610f4a81610f0e565b9050919050565b7f54726561737572793a2070617573656400000000000000000000000000000000600082015250565b6000610f87601083610eae565b9150610f9282610f51565b602082019050919050565b60006020820190508181036000830152610fb681610f7a565b9050919050565b7f54726561737572793a207a65726f20746f6b656e206164647265737300000000600082015250565b6000610ff3601c83610eae565b9150610ffe82610fbd565b602082019050919050565b6000602082019050818103600083015261102281610fe6565b9050919050565b7f54726561737572793a207a65726f206164647265737300000000000000000000600082015250565b600061105f601683610eae565b915061106a82611029565b602082019050919050565b6000602082019050818103600083015261108e81611052565b9050919050565b60006040820190506110aa6000830185610e44565b6110b76020830184610db7565b9392505050565b600081519050919050565b600081905092915050565b60005b838110156110f25780820151818401526020810190506110d7565b60008484015250505050565b6000611109826110be565b61111381856110c9565b93506111238185602086016110d4565b80840191505092915050565b600061113b82846110fe565b915081905092915050565b61114f81610e0e565b811461115a57600080fd5b50565b60008151905061116c81611146565b92915050565b60006020828403121561118857611187610ccb565b5b60006111968482850161115d565b91505092915050565b7f54726561737572793a20746f6b656e207472616e73666572206661696c656400600082015250565b60006111d5601f83610eae565b91506111e08261119f565b602082019050919050565b60006020820190508181036000830152611204816111c8565b9050919050565b7f54726561737572793a2062616c616e63654f66206661696c6564000000000000600082015250565b6000611241601a83610eae565b915061124c8261120b565b602082019050919050565b6000602082019050818103600083015261127081611234565b9050919050565b60008151905061128681610d38565b92915050565b6000602082840312156112a2576112a1610ccb565b5b60006112b084828501611277565b91505092915050565b7f54726561737572793a20696e73756666696369656e742062616c616e63650000600082015250565b60006112ef601e83610eae565b91506112fa826112b9565b602082019050919050565b6000602082019050818103600083015261131e816112e2565b905091905056fea26469706673582212201748cf2f5eb62df611bd15c580d6fbc6e05e3467498eed4f5a802c01eda2334164736f6c634300081c0033</pre>
+
+  <h2>Source Code</h2>
+  <p style="color:#999;font-size:0.9em;margin-bottom:8px;">
+    This is the source used for deployment (stored alongside deploy scripts).
+    The BlockScout backend's recompilation produces slightly different bytecode 
+    due to platform-specific differences in the compiler binary output.
+  </p>
+  <pre><code>// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+/**
+ * @title CommunityTreasuryMinimal
+ * @dev 最简化的国库合约（无 OpenZeppelin 依赖）
+ * 
+ * 功能：
+ * 1. 接收 GDC（原生币）和 CGC（ERC20 代币）
+ * 2. owner 可以提取资金（withdraw() / withdrawToken()）
+ * 3. 后续将 owner 转为 TimelockController
+ */
+contract CommunityTreasuryMinimal {
+    address public owner;
+    bool public paused = false;
+    
+    event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
+    event Paused(address account);
+    event Unpaused(address account);
+    event Withdraw(address indexed to, uint256 amount);
+    event WithdrawToken(address indexed token, address indexed to, uint256 amount);
+    
+    constructor(address _owner) {
+        owner = _owner;
+    }
+    
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Treasury: caller is not the owner");
+        _;
+    }
+    
+    modifier whenNotPaused() {
+        require(!paused, "Treasury: paused");
+        _;
+    }
+    
+    // 接收原生币（GDC）
+    receive() external payable {}
+    
+    // 提取原生币（GDC）
+    function withdraw(address to, uint256 amount) external onlyOwner whenNotPaused {
+        require(to != address(0), "Treasury: zero address");
+        require(amount &lt;= address(this).balance, "Treasury: insufficient balance");
+        payable(to).transfer(amount);
+        emit Withdraw(to, amount);
+    }
+    
+    // 提取 ERC20 代币（CGC）
+    function withdrawToken(address token, address to, uint256 amount) external onlyOwner whenNotPaused {
+        require(token != address(0), "Treasury: zero token address");
+        require(to != address(0), "Treasury: zero address");
+        // 直接调用 ERC20 转账（无 SafeERC20）
+        (bool success, bytes memory data) = token.call(abi.encodeWithSignature("transfer(address,uint256)", to, amount));
+        require(success &amp;&amp; (data.length == 0 || abi.decode(data, (bool))), "Treasury: token transfer failed");
+        emit WithdrawToken(token, to, amount);
+    }
+    
+    // 转移 owner 权限
+    function transferOwnership(address newOwner) external onlyOwner {
+        require(newOwner != address(0), "Treasury: zero address");
+        emit OwnershipTransferred(owner, newOwner);
+        owner = newOwner;
+    }
+    
+    // 暂停/恢复
+    function pause() external onlyOwner {
+        paused = true;
+        emit Paused(msg.sender);
+    }
+    
+    function unpause() external onlyOwner {
+        paused = false;
+        emit Unpaused(msg.sender);
+    }
+    
+    // 查询余额（注意：getTokenBalance 需要 gas，因为它使用 call()）
+    function getBalance() external view returns (uint256) {
+        return address(this).balance;
+    }
+    
+    function getTokenBalance(address token) external returns (uint256) {
+        (bool success, bytes memory data) = token.call(abi.encodeWithSignature("balanceOf(address)", address(this)));
+        require(success, "Treasury: balanceOf failed");
+        return abi.decode(data, (uint256));
+    }
+}
+</code></pre>
+
+  <h2>ABI</h2>
+  <p style="font-size:0.9em;color:#999">Custom Minimal Treasury (owner-controlled withdraw). No OZ deps.</p>
+
+  <h2>Deployment</h2>
+  <p style="font-size:0.9em;color:#999">
+    Deployed via master-deploy-v5.cjs script (see <code>scripts/</code> directory).
+  </p>
+
+  <h2>Verification Status Summary</h2>
+  <div class="meta" style="border-left: 4px solid var(--warn);">
+    <p style="font-size:0.9em">
+      <strong>BlockScout auto-verify:</strong> ❌ Failed<br>
+      &nbsp;&nbsp;• <code>verifysourcecode</code> (standard JSON): Bytecode mismatch despite identical CBOR metadata<br>
+      &nbsp;&nbsp;• <code>verify</code> (flattened source): API endpoint returns Elixir-side error<br>
+      &nbsp;&nbsp;• <code>verify_via_sourcify</code>: Sourcify does not support chain ID 219<br>
+      <strong>Self-hosted report:</strong> ✅ Complete — see this page<br>
+      <strong>GitHub Pages:</strong> Visit <code>goodchain-community/#/verify/</code>
+    </p>
+  </div>
+</div>
+</body>
+</html>

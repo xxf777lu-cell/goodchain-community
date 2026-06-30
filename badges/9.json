@@ -1,0 +1,16 @@
+{
+  "name": "CGC Badge #9 — CONSUL",
+  "description": "10,000 GDC. Guardian of the city gates.",
+  "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/9.svg",
+  "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Diamond"
+    },
+    {
+      "trait_type": "Badge Type",
+      "value": "CONSUL"
+    }
+  ]
+}

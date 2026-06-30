@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GoodChain Community — Contract Verification Report</title>
+<style>
+  :root { --bg: #1a1a2e; --card: #16213e; --accent: #0f3460; --text: #e0e0e0; --ok: #4ecca3; --warn: #e94560; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+         background: var(--bg); color: var(--text); line-height: 1.6; padding: 30px 20px; }
+  .container { max-width: 800px; margin: 0 auto; }
+  h1 { color: var(--ok); margin-bottom: 8px; }
+  .subtitle { color: #999; margin-bottom: 30px; }
+  .count { color: #666; font-size: 0.85em; margin-bottom: 20px; }
+  .card { display: block; background: var(--card); border-radius: 10px; padding: 16px 20px;
+    margin-bottom: 12px; text-decoration: none; color: var(--text); transition: all 0.15s;
+    border: 1px solid transparent; }
+  .card:hover { border-color: var(--ok); transform: translateX(4px); }
+  .card-name { font-weight: bold; font-size: 1.05em; }
+  .card-addr { color: #888; font-size: 0.85em; margin: 4px 0; }
+  .card-meta { color: #666; font-size: 0.8em; }
+  .note { background: #1e1e30; border-left: 4px solid var(--warn); padding: 16px 20px;
+    border-radius: 6px; margin: 30px 0; color: #aaa; font-size: 0.9em; }
+  .note strong { color: var(--ok); }
+  .note a { color: var(--ok); }
+  .explorer-link { color: #4a9eff; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>🔍 Contract Verification Report</h1>
+  <p class="subtitle">GoodChain Community — V5 Architecture</p>
+  <p class="count">6 contracts · Verified at block #2166623</p>
+  
+  <div class="note">
+    <strong>Why self-hosted?</strong><br>
+    GoodChain BlockScout (goodchainscan.org) auto-verification consistently fails for these
+    contracts due to compilation environment differences (Windows vs Linux binary output, 
+    OZ dependency resolution). The <code>verify</code> API endpoint also has server-side bugs.
+    <br><br>
+    All contract source code, ABIs, and deployment scripts are available in the 
+    <a href="https://github.com/xxf777lu-cell/goodchain-community">GitHub repository</a>.
+    Each page below contains the on-chain bytecode hash, source code, and compilation parameters
+    — everything you need to verify independently.
+  </div>
+  
+  <h2 style="margin-bottom:16px">Contracts</h2>
+  <div class="card-list">
+    <a href="0xdDe17D5Ef0CCe745cE35f5cCD618b728FE7164Ac.html" class="card">
+      <div class="card-name">CGC V5</div>
+      <div class="card-addr"><code>0xdDe17D5E...</code></div>
+      <div class="card-meta">v0.8.28 · istanbul · opt=true</div>
+    </a>
+      <a href="0xDABc3165a2e206EBEAC6dAE2Aae353426125F989.html" class="card">
+      <div class="card-name">TimelockController</div>
+      <div class="card-addr"><code>0xDABc3165...</code></div>
+      <div class="card-meta">v0.8.20 · istanbul · opt=true</div>
+    </a>
+      <a href="0x95CA712Fb1022151871F610bd38Eb71809f65811.html" class="card">
+      <div class="card-name">Governor</div>
+      <div class="card-addr"><code>0x95CA712F...</code></div>
+      <div class="card-meta">v0.8.28 · istanbul · opt=true</div>
+    </a>
+      <a href="0x931D3EdE64683e4e72C05D9DF818f4b4781E6be5.html" class="card">
+      <div class="card-name">Treasury</div>
+      <div class="card-addr"><code>0x931D3EdE...</code></div>
+      <div class="card-meta">v0.8.28 · istanbul · opt=true</div>
+    </a>
+      <a href="0x8478ef8ec2e459500f932c2749fd19df75eb7c18.html" class="card">
+      <div class="card-name">StakingPool V5</div>
+      <div class="card-addr"><code>0x8478ef8e...</code></div>
+      <div class="card-meta">v0.8.24 · istanbul · opt=true</div>
+    </a>
+      <a href="0x4575de99337ccd0a63bf4e20a33bfd776e40e215.html" class="card">
+      <div class="card-name">WGDC/CGC Pair V5</div>
+      <div class="card-addr"><code>0x4575de99...</code></div>
+      <div class="card-meta">v0.8.28 · istanbul · opt=true</div>
+    </a>
+  </div>
+
+  <div class="note">
+    <strong>🔗 Explorer links</strong><br>
+    <div style="margin-top:8px">
+      GoodChain Explorer: <a href="https://goodchainscan.org" target="_blank">goodchainscan.org</a><br>
+      RPC: <code>https://rpc1.goodchainscan.org</code> (Chain ID: 219)
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "CGC Badge #14 — VOX",
+  "description": "Ten votes. Democracy is the breath of the republic.",
+  "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/14.svg",
+  "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Bronze"
+    },
+    {
+      "trait_type": "Badge Type",
+      "value": "VOX"
+    }
+  ]
+}
