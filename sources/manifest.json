@@ -1,0 +1,107 @@
+[
+  {
+    "file": "AirdropClaim.sol",
+    "size": 3753,
+    "label": "AirdropClaim",
+    "mtime": "2026-06-13T17:58:28.623Z",
+    "address": "0x91473Baa62E88f2d5B9c977EeAe389107BaC9cE3"
+  },
+  {
+    "file": "CommunityBadgeV2.sol",
+    "size": 16597,
+    "label": "CommunityBadgeV2",
+    "mtime": "2026-06-09T06:13:17.255Z",
+    "address": "0x62B3AdCb0aF79621905CE00d566E38770C4b377f"
+  },
+  {
+    "file": "CommunityGovernanceTokenV5.sol",
+    "size": 8715,
+    "label": "CommunityGovernanceTokenV5",
+    "mtime": "2026-06-14T09:51:21.536Z",
+    "address": "0xdDe17D5Ef0CCe745cE35f5cCD618b728FE7164Ac"
+  },
+  {
+    "file": "CommunityHub.sol",
+    "size": 15304,
+    "label": "CommunityHub",
+    "mtime": "2026-06-04T18:45:50.672Z",
+    "address": "0x05C27594c5624B8a87483c4C83D5F18aF5A34a7C"
+  },
+  {
+    "file": "CommunityToken.sol",
+    "size": 1100,
+    "label": "CommunityToken",
+    "mtime": "2026-06-05T03:21:39.198Z",
+    "address": "0x44CfC4f6b4ee4f09C0A0Cb27E57BC381BbDB1089"
+  },
+  {
+    "file": "CommunityTreasury.sol",
+    "size": 1917,
+    "label": "CommunityTreasury",
+    "mtime": "2026-06-14T03:24:57.761Z",
+    "address": "0x5D34c94E8Cbc6E3660b0C9cD32e16Ef6E5bEa735"
+  },
+  {
+    "file": "EconomyManager.sol",
+    "size": 6118,
+    "label": "EconomyManager",
+    "mtime": "2026-06-05T03:20:31.436Z",
+    "address": "0x9f1775c4e023e9269b4ef32Ec36C9BDb18086E4a"
+  },
+  {
+    "file": "GoodChainGovernorV4.sol",
+    "size": 2809,
+    "label": "GoodChainGovernorV4",
+    "mtime": "2026-06-14T09:56:24.349Z",
+    "address": "0x95ca712fb1022151871f610bd38eb71809f65811"
+  },
+  {
+    "file": "GoodChainGovernorV5.sol",
+    "size": 3773,
+    "label": "GoodChainGovernorV5",
+    "mtime": "2026-06-30T03:31:27.681Z",
+    "address": "0x5E351DDbB8eE02Dc3a50f9076B79B3A43B19b5F6"
+  },
+  {
+    "file": "LPMining.sol",
+    "size": 8247,
+    "label": "LPMining",
+    "mtime": "2026-06-25T04:20:08.916Z",
+    "address": "0xdc1ffcf0fc674DDb5152562522A6f5735D8bE381"
+  },
+  {
+    "file": "PunchGameV10.sol",
+    "size": 38800,
+    "label": "PunchGameV10",
+    "mtime": "2026-06-21T14:07:48.354Z",
+    "address": "0x5f26E1Ee2e6eeA90147CFD8bD412CCC9455540fB"
+  },
+  {
+    "file": "StakingPoolV3.sol",
+    "size": 9287,
+    "label": "StakingPoolV3",
+    "mtime": "2026-06-05T19:55:07.346Z",
+    "address": "0x8478EF8eC2e459500F932c2749Fd19df75EB7C18"
+  },
+  {
+    "file": "V4V5Migrator.sol",
+    "size": 2306,
+    "label": "V4V5Migrator",
+    "mtime": "2026-06-16T15:21:56.854Z",
+    "address": "0xd92DE32F4a5adA5f7D4D5e5669C329083fEAF3fe"
+  },
+  {
+    "file": "V4V5MigratorFlattened.sol",
+    "size": 2241,
+    "label": "V4V5MigratorFlattened",
+    "mtime": "2026-06-16T14:56:06.586Z",
+    "address": ""
+  },
+  {
+    "file": "WGDC.sol",
+    "size": 2126,
+    "label": "WGDC",
+    "mtime": "2026-06-05T17:35:03.895Z",
+    "address": "0x1C7cA2F2a0dE1FFCcE397B539aCDA16E054ae348"
+  }
+]
