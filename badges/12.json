@@ -1,0 +1,16 @@
+{
+  "name": "CGC Badge #12 — WILDFIRE",
+  "description": "2,000 activity. One spark becomes a thousand.",
+  "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/12.svg",
+  "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Silver"
+    },
+    {
+      "trait_type": "Badge Type",
+      "value": "WILDFIRE"
+    }
+  ]
+}

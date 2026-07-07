@@ -1,0 +1,16 @@
+{
+  "name": "CGC Badge #16 — GENESIS",
+  "description": "Among the first hundred. Before maps, before roads.",
+  "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/16.svg",
+  "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Diamond"
+    },
+    {
+      "trait_type": "Badge Type",
+      "value": "GENESIS"
+    }
+  ]
+}

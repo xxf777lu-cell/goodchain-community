@@ -1,0 +1,16 @@
+{
+  "name": "CGC Badge #1 — CANDOR",
+  "description": "Seven dawns. You have learned to keep the flame.",
+  "image": "https://xxf777lu-cell.github.io/goodchain-community/badges/1.svg",
+  "external_url": "https://xxf777lu-cell.github.io/goodchain-community",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Silver"
+    },
+    {
+      "trait_type": "Badge Type",
+      "value": "CANDOR"
+    }
+  ]
+}
